@@ -1,0 +1,42 @@
+[2015-05-23 15:44:37,410]  INFO ProducerLogger:
+Producer start:Id=P1
+
+[2015-05-23 15:44:37,425]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ProducerLogger:
+开始同步规则模型及任务模型...
+
+[2015-05-23 15:44:37,456]  INFO ProducerLogger:
+加载规则模型2条，任务模型2条.
+
+[2015-05-23 16:06:03,878]  INFO ProducerLogger:
+Producer start:Id=P1
+
+[2015-05-23 16:06:03,908]  INFO ProducerLogger:
+开始同步规则模型及任务模型...
+
+[2015-05-23 16:06:03,909]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,909]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,909]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,909]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,926]  INFO ProducerLogger:
+加载规则模型2条，任务模型2条.
+

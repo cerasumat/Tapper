@@ -1,0 +1,16 @@
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Engine.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Engine.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Framework.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Newtonsoft.Json.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\log4net.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Dapper.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Autofac.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Framework.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Newtonsoft.Json.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\log4net.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Dapper.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Dapper.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Autofac.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.pdb

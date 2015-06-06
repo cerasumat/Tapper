@@ -1,0 +1,45 @@
+[2015-05-23 15:44:37,410]  INFO ConsumerLogger:
+Consumer start:Id=C1
+
+[2015-05-23 15:44:37,410]  INFO ConsumerLogger:
+Consumer start:Id=C2
+
+[2015-05-23 15:44:37,410]  INFO ConsumerLogger:
+Consumer start:Id=C3
+
+[2015-05-23 15:44:37,425]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C3,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C2,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:37,425]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 15:44:48,452]  INFO ConsumerLogger:
+Pull tasks: Topic:TM,QueueId:1[Success:1条, Fail:0条].
+
+[2015-05-23 15:44:48,581]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区检尺,Node=原油罐区,TaskDispathAt=2015-05-23 15:44:48,TaskTimeOutAt=2015-05-23 15:49:48,TaskState=Running]
+
+[2015-05-23 15:44:49,348]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区检尺,Node=原油罐区,TaskDispathAt=2015-05-23 15:44:48,TaskTimeOutAt=2015-05-23 15:49:48,TaskState=Complete]
+
+[2015-05-23 16:06:03,901]  INFO ConsumerLogger:
+Consumer start:Id=C1
+
+[2015-05-23 16:06:03,903]  INFO ConsumerLogger:
+Consumer start:Id=C2
+
+[2015-05-23 16:06:03,908]  INFO ConsumerLogger:
+Consumer start:Id=C3
+
+[2015-05-23 16:06:03,909]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,926]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C3,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-05-23 16:06:03,926]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C2,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+

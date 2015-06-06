@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D92C464D-7F43-440E-922F-F49655C66F34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCITC.MES.MM.Tapper.Engine</RootNamespace>
+    <AssemblyName>PCITC.MES.MM.Tapper.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Broker\Broker.cs" />
+    <Compile Include="Broker\BrokerSettings.cs" />
+    <Compile Include="Broker\ConsumerManager.cs" />
+    <Compile Include="Broker\ConsumerManagerSettings.cs" />
+    <Compile Include="Broker\IConsumerManager.cs" />
+    <Compile Include="Broker\INotifyService.cs" />
+    <Compile Include="Broker\ITaskQueueService.cs" />
+    <Compile Include="Broker\ITaskService.cs" />
+    <Compile Include="Broker\ITopicService.cs" />
+    <Compile Include="Broker\NotifyInOracleService.cs" />
+    <Compile Include="Broker\NotifySettings.cs" />
+    <Compile Include="Broker\TopicService.cs" />
+    <Compile Include="Broker\TopicServiceSettings.cs" />
+    <Compile Include="Consumer\Consumer.cs" />
+    <Compile Include="Consumer\ConsumerSettings.cs" />
+    <Compile Include="Consumer\ITaskHandler.cs" />
+    <Compile Include="Consumer\MvTaskHandler.cs" />
+    <Compile Include="Consumer\ServiceContracts\AuthorizeService.cs" />
+    <Compile Include="Consumer\TaskHandleMode.cs" />
+    <Compile Include="Entities\NotifyEntity.cs" />
+    <Compile Include="Entities\TopicModel.cs" />
+    <Compile Include="Producer\IModelService.cs" />
+    <Compile Include="Broker\IQueueSelector.cs" />
+    <Compile Include="Producer\ModelService.cs" />
+    <Compile Include="Producer\ModelSettings.cs" />
+    <Compile Include="Producer\Producer.cs" />
+    <Compile Include="Producer\ProducerSettings.cs" />
+    <Compile Include="Broker\TaskQueueService.cs" />
+    <Compile Include="Broker\TaskService.cs" />
+    <Compile Include="Configurations\ConfigurationExtensions.cs" />
+    <Compile Include="Entities\BrokerStatisticInfo.cs" />
+    <Compile Include="Entities\RuleModel.cs" />
+    <Compile Include="Entities\TaskEntity.cs" />
+    <Compile Include="Entities\TaskModel.cs" />
+    <Compile Include="Broker\TaskQueue.cs" />
+    <Compile Include="Entities\TaskState.cs" />
+    <Compile Include="Broker\QueueAverageSelector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Broker\TaskQueueSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCITC.MES.MM.Tapper.Framework\PCITC.MES.MM.Tapper.Framework.csproj">
+      <Project>{46ad5b94-8909-4ad2-85d2-9d23ea933be5}</Project>
+      <Name>PCITC.MES.MM.Tapper.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VersionInfos.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
