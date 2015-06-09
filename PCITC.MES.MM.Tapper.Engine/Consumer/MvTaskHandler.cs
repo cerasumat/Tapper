@@ -24,7 +24,8 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             switch (topic)
             {
                 case "UR":
-                    dynamic result = WcfChannelFactory.ExecuteMetod<IUrService4Tapper>("ur", ServiceUrl, ServiceBinding, methodName, paramArray);
+                    //dynamic result = WcfChannelFactory.ExecuteMetod<IUrService4Tapper>("ur", ServiceUrl, ServiceBinding, methodName, paramArray);
+                    dynamic result = WcfChannelFactory.ExecuteMetod<ITapperSrv>("ur", ServiceUrl, ServiceBinding, methodName, paramArray);
                     return result;
                 default:
                     return false;

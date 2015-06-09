@@ -63,6 +63,7 @@
     <Compile Include="Consumer\ITaskHandler.cs" />
     <Compile Include="Consumer\MvTaskHandler.cs" />
     <Compile Include="Consumer\ServiceContracts\AuthorizeService.cs" />
+    <Compile Include="Consumer\ServiceContracts\TapperSrv.cs" />
     <Compile Include="Consumer\ServiceContracts\UrService4Tapper.cs" />
     <Compile Include="Consumer\TaskHandleMode.cs" />
     <Compile Include="Entities\NotifyEntity.cs" />

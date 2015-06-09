@@ -72,7 +72,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
         private static bool IsServiceUrlValidate(string serviceUrl)
         {
             var urlRegex = new Regex(@"^[a-zA-z]+://[^\s]*$");
-            return urlRegex.IsMatch(serviceUrl);
+            return urlRegex.IsMatch(serviceUrl) || serviceUrl.Contains("net.tcp://");
         }
     }
 }

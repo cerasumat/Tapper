@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
+using System.Threading.Tasks;
 
 namespace PCITC.MES.MM.Tapper.Framework.WcfParser
 {
@@ -49,11 +50,9 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
             dynamic result;
             using (proxy as IDisposable)
             {
-                if (proxy == null) return false;
                 try
                 {
-                    var type = typeof(T);
-                    var mi = type.GetMethod(methodName);
+                    var mi = typeof(T).GetMethod(methodName);
                     result = mi.Invoke(proxy, args);
                 }
                 catch (TimeoutException)
@@ -76,6 +75,59 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
             return result;
         }
 
+        //--- Edit by JiaK 2015-6-8
+        //--- should not call the async method only for the benifits of offloading
+        //--- which means that async method need to benifits in scalability,not just in offloading
+        public static dynamic ExecuteMetodAsync<T>(string factoryName, string uri, string bindingName, string methodName, params object[] args)
+        {
+            var channelFactory = GetFactory<T>(factoryName, uri, bindingName);
+            var proxy = (channelFactory.CreateChannel() as ICommunicationObject);
+            //-----------------------------------------------------------------------
+            //-- commet by JiaK --2015-6-8--------------------------------------------------
+            //-- simply return null will cause a NullReferenceException on the null task--
+            //-- so,we need to return a default failure task for the caller---------------
+            //if (proxy == null) return Task.FromResult((dynamic)default(bool));
+            if (proxy == null) return false;
+            //-- Open the proxy explict make sure the paralle execution on the service side
+            proxy.Open();
+            //-----------------------------------------------------------------------
+            dynamic result;
+            using (proxy as IDisposable)
+            {
+                try
+                {
+                    var proxyType = typeof (T);
+                    var beginMi = proxyType.GetMethod("Begin" + methodName);
+                    var endMi = proxyType.GetMethod("End" + methodName);
+                    var newArgs = new object[args.Length + 2];
+                    for (var i = 0; i < args.Length; i++) newArgs[i] = args[i];
+                    newArgs[newArgs.Length - 2] = null;
+                    newArgs[newArgs.Length - 1] = null;
+                    var asyncResult = beginMi.Invoke(proxy, newArgs) as IAsyncResult;
+                    if (asyncResult == null) return false;
+                    asyncResult.AsyncWaitHandle.WaitOne();
+                    result = endMi.Invoke(proxy, new object[] {asyncResult});
+                    asyncResult.AsyncWaitHandle.Close();
+                }
+                catch (TimeoutException)
+                {
+                    (proxy as ICommunicationObject)?.Abort();
+                    throw;
+                }
+                catch (CommunicationException)
+                {
+                    (proxy as ICommunicationObject)?.Abort();
+                    throw;
+                }
+                catch (Exception)
+                {
+                    (proxy as ICommunicationObject)?.Abort();
+                    throw;
+                }
+                proxy.Close();
+            }
+            return result;
+        }
         //public static object ExecuteMetod<T>(string uri,string bindingName, string methodName, params object[] args)
         //{
         //    var binding = CreateBinding(GetBindingType(bindingName));
@@ -167,9 +219,17 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
                 {
                     var ws = new NetTcpBinding
                     {
-                        MaxReceivedMessageSize = 65535000,
+                        MaxBufferPoolSize = 2147483647,
+                        MaxReceivedMessageSize = 2147483647,
                         Security = {Mode = SecurityMode.None}
                     };
+                    ws.Security.Message.ClientCredentialType = MessageCredentialType.None;
+                    ws.Security.Transport.ClientCredentialType = TcpClientCredentialType.None;
+                    ws.ReaderQuotas.MaxDepth = 2147483647;
+                    ws.ReaderQuotas.MaxStringContentLength = 2147483647;
+                    ws.ReaderQuotas.MaxArrayLength = 2147483647;
+                    ws.ReaderQuotas.MaxBytesPerRead = 2147483647;
+                    ws.ReaderQuotas.MaxNameTableCharCount = 2147483647;
                     bindinginstance = ws;
                 }
                     break;
