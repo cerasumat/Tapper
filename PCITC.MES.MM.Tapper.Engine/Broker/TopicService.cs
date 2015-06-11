@@ -42,7 +42,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
                 using (var connection = new OracleConnection(Setting.ConnectionStr))
                 {
                     connection.Open();
-                    var topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable);
+                    var topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable,"*");
                     if (topics == null)
                     {
                         _logger.Fatal("没有Topic配置，请检查系统配置.");

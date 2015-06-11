@@ -237,6 +237,11 @@ namespace PCITC.MES.MM.Tapper.Framework.Dapper
         {
             return connection.Query<T>(BuildSql(condition, table, columns, isOr), condition, transaction, true, commandTimeout);
         }
+
+        public static IEnumerable<T> QueryList<T>(this IDbConnection connection, string sql,object condition, IDbTransaction transaction = null, int? commandTimeout = null)
+        {
+            return connection.Query<T>(sql, condition, transaction, true, commandTimeout);
+        }
         /// <summary>Query a list of data async from table with specified condition.
         /// </summary>
         /// <param name="connection"></param>

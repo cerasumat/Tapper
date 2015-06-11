@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Engine"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Framework", "PCITC.MES.MM.Tapper.Framework\PCITC.MES.MM.Tapper.Framework.csproj", "{46AD5B94-8909-4AD2-85D2-9D23EA933BE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Console", "PCITC.MES.MM.Tapper.Console\PCITC.MES.MM.Tapper.Console.csproj", "{6D59E7EF-573D-4016-987B-1292F5B40F2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46AD5B94-8909-4AD2-85D2-9D23EA933BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46AD5B94-8909-4AD2-85D2-9D23EA933BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46AD5B94-8909-4AD2-85D2-9D23EA933BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

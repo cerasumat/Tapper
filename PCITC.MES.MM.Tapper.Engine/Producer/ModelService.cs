@@ -70,7 +70,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Producer
                 using (var connection = new OracleConnection(Setting.ConnectionStr))
                 {
                     connection.Open();
-                    var rules = connection.QueryList<RuleModel>(null, Setting.RuleModelTable);
+                    var rules = connection.QueryList<RuleModel>(null, Setting.RuleModelTable,"*");
                     var loadRuleCount = 0;
                     if (rules != null)
                     {
@@ -83,7 +83,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Producer
                                 var count = connection.Delete(new { RuleId = expireRule.RuleId }, Setting.RuleModelTable);
                                 if (count > 0)
                                 {
-                                    _logger.Info("已清理过期规则模型:{0}", expireRule.ToString());
+                                    _logger.Info("已删除过期规则模型:{0}", expireRule.ToString());
                                 }
                                 else
                                 {
@@ -99,7 +99,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Producer
                                 loadRuleCount++;
                         }
                     }
-                    var tasks = connection.QueryList<TaskModel>(null, Setting.TaskModelTable);
+                    var tasks = connection.QueryList<TaskModel>(null, Setting.TaskModelTable,"*");
                     if (tasks != null)
                     {
                         _taskModelDict.Clear();

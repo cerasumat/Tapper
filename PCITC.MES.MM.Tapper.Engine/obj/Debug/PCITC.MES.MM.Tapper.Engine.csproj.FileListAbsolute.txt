@@ -1,5 +1,6 @@
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Engine.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Engine.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Oracle.ManagedDataAccess.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Newtonsoft.Json.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\log4net.dll
@@ -14,4 +15,3 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Auto
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.csprojResolveAssemblyReference.cache
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Debug\PCITC.MES.MM.Tapper.Engine.pdb
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Debug\Oracle.ManagedDataAccess.dll
