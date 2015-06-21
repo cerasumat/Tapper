@@ -12,4 +12,3 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\l
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\Newtonsoft.Json.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.pdb
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.csprojResolveAssemblyReference.cache

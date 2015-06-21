@@ -26,7 +26,12 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
         private readonly ITopicService _topicService;
         private readonly ITaskQueueService _queueService;
         private readonly ITaskService _taskService;
-        private readonly ITaskHandler _taskHandler;
+        // 2015-06-21 Edit by JiaK----
+        // change the singleton taskHandler to named taskHandlers ,canceling the taskHandler injection;
+        // solve the horilizing concurrent bugs; 
+        // and initialize the handler dics in the subscribe event;
+        //private readonly ITaskHandler _taskHandler;
+        private ConcurrentDictionary<string, ITaskHandler> _taskHandlers; 
         private readonly IQueueSelector _queueSelector;
         private readonly IConsumerManager _consumerManager;
         private readonly BackWorker _processTaskWorker;
@@ -58,7 +63,8 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             _jsonSerializer = ObjectContainer.Resolve<IJsonSerializer>();
             _queueService = ObjectContainer.Resolve<ITaskQueueService>();
             _taskService = ObjectContainer.Resolve<ITaskService>();
-            _taskHandler = ObjectContainer.Resolve<ITaskHandler>();
+            //2015-06-21 canceling the injection
+            //_taskHandler = ObjectContainer.Resolve<ITaskHandler>();
             _scheduleService = ObjectContainer.Resolve<IScheduleService>();
             _queueSelector = ObjectContainer.Resolve<IQueueSelector>();
             _consumerManager = ObjectContainer.Resolve<IConsumerManager>();
@@ -91,6 +97,11 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
         {
             if(!_subscribedTopics.Contains(topic))
                 _subscribedTopics.Add(topic);
+            if (!_taskHandlers.ContainsKey(topic))
+            {
+                if (!_taskHandlers.TryAdd(topic, new MvTaskHandler()))
+                    _logger.Fatal("Task Handler initialized failed, Topic={0}", topic);
+            }    
             return this;
         }
 
@@ -262,9 +273,22 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
                         newParams.Add(param.Key,param.Value);
                     }
                 }
-                _taskHandler.ServiceUrl = taskTopic.ServiceUrl;
-                _taskHandler.ServiceBinding = taskTopic.ServiceBinding;
-                dynamic result = _taskHandler.TaskExcute(task.Topic, task.TaskAction, newParams);
+                dynamic result;
+                //-- 2015-6-21 Edit By JiaK
+                //lock (_taskHandler)
+                //{
+                //    _taskHandler.ServiceUrl = taskTopic.ServiceUrl;
+                //    _taskHandler.ServiceBinding = taskTopic.ServiceBinding;
+                //    result = _taskHandler.TaskExcute(task.Topic, task.TaskAction, newParams);
+                //}
+                if (string.IsNullOrWhiteSpace(_taskHandlers[task.Topic].ServiceUrl))
+                {
+                    _taskHandlers[task.Topic].ServiceUrl = taskTopic.ServiceUrl;
+                    _taskHandlers[task.Topic].ServiceBinding = taskTopic.ServiceBinding;
+                }
+                result = _taskHandlers[task.Topic].TaskExcute(task.Topic, task.TaskAction, newParams);
+
+                //dynamic result = _taskHandler.TaskExcute(task.Topic, task.TaskAction, newParams);
                 if (result)
                 {
                     task.TaskState = TaskState.Complete;

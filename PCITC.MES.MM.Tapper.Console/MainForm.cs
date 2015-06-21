@@ -18,6 +18,7 @@ using PCITC.MES.MM.Tapper.Framework.Configurations;
 using PCITC.MES.MM.Tapper.Framework.Dapper;
 using PCITC.MES.MM.Tapper.Framework.Log4Net;
 using PCITC.MES.MM.Tapper.Framework.Serializing;
+using PCITC.MES.MM.Tapper.Framework.WcfParser;
 
 namespace PCITC.MES.MM.Tapper.Console
 {
@@ -53,6 +54,7 @@ namespace PCITC.MES.MM.Tapper.Console
             }
             cbTopic.SelectedIndex = 0;
             cbLevel.SelectedIndex = 0;
+            WcfChannelFactory.CloseChannelFactory();
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -217,6 +219,11 @@ namespace PCITC.MES.MM.Tapper.Console
             this.Visible = true;
             this.WindowState = FormWindowState.Normal;
             this.notifyIcon1.Visible = false;
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            WcfChannelFactory.CloseChannelFactory();
         }
     }
 }

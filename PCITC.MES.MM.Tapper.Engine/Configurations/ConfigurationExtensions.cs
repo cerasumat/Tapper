@@ -13,7 +13,9 @@ namespace PCITC.MES.MM.Tapper.Engine.Configurations
             configuration.SetDefault<ITaskQueueService, TaskQueueService>();
             configuration.SetDefault<IQueueSelector, QueueAverageSelector>();
             configuration.SetDefault<ITaskService, TaskService>();
-            configuration.SetDefault<ITaskHandler, MvTaskHandler>();
+            // -- 2015-6-21 Edit By JiaK--------------------
+            // cancel injecting the TaskHandler object case the horinizing concurrent bug;
+            //configuration.SetDefault<ITaskHandler, MvTaskHandler>();
             configuration.SetDefault<IModelService, ModelService>();
             configuration.SetDefault<IConsumerManager, ConsumerManager>();
             configuration.SetDefault<INotifyService, NotifyInOracleService>();

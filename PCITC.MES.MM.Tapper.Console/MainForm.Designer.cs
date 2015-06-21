@@ -404,6 +404,7 @@
             this.dgvLog.Name = "dgvLog";
             this.dgvLog.ReadOnly = true;
             this.dgvLog.RowHeadersWidth = 15;
+            this.dgvLog.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvLog.RowTemplate.Height = 30;
             this.dgvLog.Size = new System.Drawing.Size(1226, 326);
             this.dgvLog.TabIndex = 0;
@@ -441,6 +442,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tapper Work Platform";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
             this.groupBox1.ResumeLayout(false);

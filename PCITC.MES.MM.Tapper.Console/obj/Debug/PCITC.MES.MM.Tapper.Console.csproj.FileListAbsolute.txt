@@ -1,7 +1,4 @@
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.csprojResolveAssemblyReference.cache
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.MainForm.resources
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.Properties.Resources.resources
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.csproj.GenerateResource.Cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Log4Net.config
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe.config
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.pdb
@@ -19,5 +16,9 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\log
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Dapper.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Dapper.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Autofac.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.MainForm.resources
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.Properties.Resources.resources
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.csproj.GenerateResource.Cache
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.exe
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\obj\Debug\PCITC.MES.MM.Tapper.Console.pdb

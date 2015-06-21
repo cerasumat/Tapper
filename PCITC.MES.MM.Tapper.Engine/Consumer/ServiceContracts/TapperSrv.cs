@@ -56,6 +56,12 @@ public interface ITapperSrv
     
     [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITapperSrv/SubmitUnit", ReplyAction="http://tempuri.org/ITapperSrv/SubmitUnitResponse")]
     System.Threading.Tasks.Task<bool> SubmitUnitAsync(string userId, int unitId, System.DateTime begTime, System.DateTime endTime);
+    
+    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITapperSrv/HandleUnit", ReplyAction="http://tempuri.org/ITapperSrv/HandleUnitResponse")]
+    bool HandleUnit(string userId, int unitId, System.DateTime begTime, System.DateTime endTime, int reviseMode);
+    
+    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITapperSrv/HandleUnit", ReplyAction="http://tempuri.org/ITapperSrv/HandleUnitResponse")]
+    System.Threading.Tasks.Task<bool> HandleUnitAsync(string userId, int unitId, System.DateTime begTime, System.DateTime endTime, int reviseMode);
 }
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -160,5 +166,15 @@ public partial class TapperSrvClient : System.ServiceModel.ClientBase<ITapperSrv
     public System.Threading.Tasks.Task<bool> SubmitUnitAsync(string userId, int unitId, System.DateTime begTime, System.DateTime endTime)
     {
         return base.Channel.SubmitUnitAsync(userId, unitId, begTime, endTime);
+    }
+    
+    public bool HandleUnit(string userId, int unitId, System.DateTime begTime, System.DateTime endTime, int reviseMode)
+    {
+        return base.Channel.HandleUnit(userId, unitId, begTime, endTime, reviseMode);
+    }
+    
+    public System.Threading.Tasks.Task<bool> HandleUnitAsync(string userId, int unitId, System.DateTime begTime, System.DateTime endTime, int reviseMode)
+    {
+        return base.Channel.HandleUnitAsync(userId, unitId, begTime, endTime, reviseMode);
     }
 }

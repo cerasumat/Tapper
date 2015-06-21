@@ -176,6 +176,29 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
             return factory.CreateChannel();
         }
 
+        public static void CloseChannelFactory()
+        {
+            if (_channelFactories.Count > 0)
+            {
+                lock (_channelFactories)
+                {
+                    foreach (var factory in _channelFactories.Values)
+                    {
+                        try
+                        {
+                            factory.Abort();
+                            factory.Close();
+                        }
+                        catch
+                        {
+                            // ignored
+                        }
+                    }
+                    _channelFactories.Clear();
+                }
+            }
+        }
+
         private static Binding CreateBinding(BindingType binding)
         {
             Binding bindinginstance = null;
@@ -219,13 +242,14 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
                 {
                     var ws = new NetTcpBinding
                     {
+                        //Name = "netTcpBind",
                         MaxBufferPoolSize = 2147483647,
                         MaxReceivedMessageSize = 2147483647,
                         Security = {Mode = SecurityMode.None}
                     };
                     ws.Security.Message.ClientCredentialType = MessageCredentialType.None;
                     ws.Security.Transport.ClientCredentialType = TcpClientCredentialType.None;
-                    ws.ReaderQuotas.MaxDepth = 2147483647;
+                    ws.ReaderQuotas.MaxDepth = 64;
                     ws.ReaderQuotas.MaxStringContentLength = 2147483647;
                     ws.ReaderQuotas.MaxArrayLength = 2147483647;
                     ws.ReaderQuotas.MaxBytesPerRead = 2147483647;
