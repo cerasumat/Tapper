@@ -50,7 +50,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
             _consumerManager.Start();
             _notifyService.Start();
             _logger.Info("Broker started, producer=[{0}], consumer=[{1}], admin=[{2}]", Setting.ProducerIPEndPoint, Setting.ConsumerIPEndPoint, Setting.AdminIPEndPoint);
-            _notifyService.AddInfoNotify("任务调度器启动", null, null);
+            _notifyService.AddDebugNotify("任务调度器启动", null, null);
             return this;
         }
 
@@ -58,7 +58,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
         {
             _queueService.Shutdown();
             _logger.Info("Broker shutdown, producer=[{0}], consumer=[{1}], admin=[{2}]", Setting.ProducerIPEndPoint, Setting.ConsumerIPEndPoint, Setting.AdminIPEndPoint);
-            _notifyService.AddInfoNotify("任务调度器关闭", null, null);
+            _notifyService.AddDebugNotify("任务调度器关闭", null, null);
             return this;
         }
 

@@ -117,8 +117,8 @@ namespace PCITC.MES.MM.Tapper.Console
                 var condition =
                     new
                     {
-                        BegTime = tpDate.Value,
-                        EndTime = tpDate.Value.AddDays(1)
+                        BegTime = tpDate.Value.Date,
+                        EndTime = tpDate.Value.Date.AddDays(1)
                     };
                 _logs= connection.QueryList<NotifyEntity>(sql, condition, null, null);
                 connection.Close();

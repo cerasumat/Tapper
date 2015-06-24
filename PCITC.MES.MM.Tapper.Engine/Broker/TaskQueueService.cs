@@ -165,11 +165,11 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
                                         continue;
                                     }
                                     updateEntity.TaskState = TaskState.Waiting;
-                                    _logger.Warn("任务第{0}次调度失败,准备重新调度:{1}", updateEntity.TaskDispatchCount,
+                                    _logger.Error("任务第{0}次调度失败,准备重新调度:{1}", updateEntity.TaskDispatchCount,
                                             updateEntity.ToString());
                                     taskQueue.TaskEntities.TryUpdate(updateEntity.TaskCode, updateEntity, taskEntity);
                                     _notifyService.AddErrorNotify(
-                                            string.Format("任务第{0}次调度超时,准备重新调度:{1}", updateEntity.TaskDispatchCount,
+                                            string.Format("任务第{0}次调度失败,准备重新调度:{1}", updateEntity.TaskDispatchCount,
                                                 updateEntity.ToString()), updateEntity, null);
                                 }
                                 break;

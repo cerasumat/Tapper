@@ -59,6 +59,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             _taskFactory= new TaskFactory(new LimitedConcurrencyLevelTaskScheduler(Setting.ConsumeThreadMaxCount));
             _topicQueueIdsDict=new ConcurrentDictionary<string, IList<int>>();
             _consumingTaskQueue = new BlockingCollection<TaskEntity>();
+            _taskHandlers = new ConcurrentDictionary<string, ITaskHandler>();
             _topicService = ObjectContainer.Resolve<ITopicService>();
             _jsonSerializer = ObjectContainer.Resolve<IJsonSerializer>();
             _queueService = ObjectContainer.Resolve<ITaskQueueService>();
@@ -80,7 +81,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             TaskScheduler.UnobservedTaskException +=
                 (_, ev) => LogUnobservedException(ev.Exception);
             _logger.Info("Consumer start:Id={0}",Id);
-            _notifyService.AddInfoNotify(string.Format("任务处理器启动,Id={0}",Id),null,null);
+            _notifyService.AddDebugNotify(string.Format("任务处理器启动,Id={0}",Id),null,null);
             return this;
         }
 
@@ -89,7 +90,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             _stopped = true;
             StopBackgroundJobs();
             _logger.Info("Consumer shutdown:Id={0}", Id);
-            _notifyService.AddInfoNotify(string.Format("任务处理器关闭,Id={0}", Id), null, null);
+            _notifyService.AddDebugNotify(string.Format("任务处理器关闭,Id={0}", Id), null, null);
             return this;
         }
 

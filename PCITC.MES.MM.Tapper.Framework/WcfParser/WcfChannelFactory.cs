@@ -212,10 +212,10 @@ namespace PCITC.MES.MM.Tapper.Framework.WcfParser
                         MaxBufferPoolSize = 2147483647,
                         MaxReceivedMessageSize = 2147483647,
                         ReaderQuotas = {MaxStringContentLength = 2147483647},
-                        CloseTimeout = new TimeSpan(0, 10, 0),
-                        OpenTimeout = new TimeSpan(0, 10, 0),
-                        ReceiveTimeout = new TimeSpan(0, 10, 0),
-                        SendTimeout = new TimeSpan(0, 10, 0)
+                        CloseTimeout = TimeSpan.FromMinutes(10),
+                        OpenTimeout = TimeSpan.FromMinutes(10),
+                        ReceiveTimeout = TimeSpan.FromMinutes(10),
+                        SendTimeout = TimeSpan.FromMinutes(10)
                     };
                     bindinginstance = ws;
                 }

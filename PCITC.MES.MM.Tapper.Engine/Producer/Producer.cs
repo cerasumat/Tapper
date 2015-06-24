@@ -54,7 +54,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Producer
             _modelService.Start();
             StartBackgroundJobs();
             _logger.Info("Producer start:Id={0}", Id);
-            _notifyService.AddInfoNotify(string.Format("任务生成器启动,Id={0}",Id),null,null);
+            _notifyService.AddDebugNotify(string.Format("任务生成器启动,Id={0}",Id),null,null);
             return this;
         }
 
@@ -62,7 +62,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Producer
         {
             StopBackgroundJobs();
             _logger.Info("Producer shutdown:Id={0}", Id);
-            _notifyService.AddInfoNotify(string.Format("任务生成器关闭,Id={0}", Id), null, null);
+            _notifyService.AddDebugNotify(string.Format("任务生成器关闭,Id={0}", Id), null, null);
             return this;
         }
 

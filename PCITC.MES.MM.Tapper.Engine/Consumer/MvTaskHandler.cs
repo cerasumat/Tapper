@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using PCITC.MES.MM.Tapper.Framework.WcfParser;
@@ -30,44 +31,53 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
                     var paramArray = GetParametersArray(mi, methodParams);
                     try
                     {
+                            //Trace.WriteLine(string.Format("Task invoke:{0}",methodName));
                             dynamic result = WcfChannelFactory.ExecuteMetod<ITapperSrv>("ur", ServiceUrl, ServiceBinding,
-                                methodName, paramArray);
+                            methodName, paramArray);
+                            //Trace.WriteLine(result.ToString());
                             return result;
-                        }
-                        catch (Exception ex)
+                    }
+                    catch (Exception exp)
                     {
-                        
-                        throw;
+                        throw exp;
                     }
                 }
                     break;
-                //case "CU":
-                //    {
-                //        var mi = typeof(ICuOperateSrv).GetMethod(methodName);
-                //        var paramArray = GetParametersArray(mi, methodParams);
-                //        dynamic result = WcfChannelFactory.ExecuteMetod<ICuOperateSrv>("cu", ServiceUrl, ServiceBinding,
-                //            methodName, paramArray);
-                //        return result;
-                //    }
-                //    break;
-                //case "TM":
-                //    {
-                //        var mi = typeof(ITankAutoSvc).GetMethod(methodName);
-                //        var paramArray = GetParametersArray(mi, methodParams);
-                //        dynamic result = WcfChannelFactory.ExecuteMetod<ITankAutoSvc>("tm", ServiceUrl, ServiceBinding,
-                //            methodName, paramArray);
-                //        return result;
-                //    }
-                //    break;
-                //case "PB":
-                //    {
-                //        var mi = typeof(IParsService).GetMethod(methodName);
-                //        var paramArray = GetParametersArray(mi, methodParams);
-                //        dynamic result = WcfChannelFactory.ExecuteMetod<ITankAutoSvc>("pb", ServiceUrl, ServiceBinding,
-                //            methodName, paramArray);
-                //        return result;
-                //    }
-                //    break;
+                case "CU":
+                {
+                    var mi = typeof (ICuOperateSrv).GetMethod(methodName);
+                    var paramArray = GetParametersArray(mi, methodParams);
+                    try
+                    {
+                        dynamic result = WcfChannelFactory.ExecuteMetod<ICuOperateSrv>("cu", ServiceUrl, ServiceBinding,
+                            methodName, paramArray);
+                        return result;
+                    }
+                    catch (Exception exp)
+                    {
+                        throw exp;
+                    }
+                }
+                    break;
+                case "TM":
+                {
+                    var mi = typeof (ITankAutoSvc).GetMethod(methodName);
+                    var paramArray = GetParametersArray(mi, methodParams);
+                    dynamic result = WcfChannelFactory.ExecuteMetod<ITankAutoSvc>("tm", ServiceUrl, ServiceBinding,
+                        methodName, paramArray);
+                    return result;
+                }
+                    break;
+                case "PB":
+                {
+                    var mi = typeof (IParsService).GetMethod(methodName);
+                    var paramArray = GetParametersArray(mi, methodParams);
+                    dynamic result = WcfChannelFactory.ExecuteMetod<IParsService>("pb", ServiceUrl,
+                        ServiceBinding,
+                        methodName, paramArray);
+                    return result;
+                }
+                    break;
                 default:
                     return false;
             }
