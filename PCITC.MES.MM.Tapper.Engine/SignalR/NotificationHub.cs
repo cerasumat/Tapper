@@ -16,7 +16,7 @@ namespace PCITC.MES.MM.Tapper.Engine.SignalR
         }
         public override Task OnConnected()
         {
-            Clients.Client(Context.ConnectionId).receiveMsg("Connect successful");
+            Clients.Client(Context.ConnectionId).receiveMsg(string.Format("{0}:Connect successful",Context.ConnectionId));
             return base.OnConnected();
         }
 

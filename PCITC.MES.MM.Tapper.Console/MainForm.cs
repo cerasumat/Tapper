@@ -1,4 +1,4 @@
-﻿//#define HANDLE_CLOSE
+﻿#define HANDLE_CLOSE
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using PCITC.MES.MM.Tapper.Engine.Broker;
 using PCITC.MES.MM.Tapper.Engine.Entities;
+using PCITC.MES.MM.Tapper.Engine.SignalR;
 using PCITC.MES.MM.Tapper.Framework.Autofac;
 using PCITC.MES.MM.Tapper.Framework.Log4Net;
 using PCITC.MES.MM.Tapper.Framework.Scheduling;
@@ -37,6 +38,10 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
         private readonly BackWorker _processTaskWorker;
         private readonly ILogger _logger;
         private readonly INotifyService _notifyService;
+        // 2015-07-08 Edit by JiaK----
+        // Add task handle failure notify
+        private readonly INotify _notify;
+        private readonly IJsonSerializer _serializer;
         private bool _stopped;
 
         public string Id { get; private set; }
@@ -72,6 +77,10 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
             _processTaskWorker = new BackWorker("Consumer.ProcessTask", ProcessTask);
             _logger = ObjectContainer.Resolve<ILog4NetLoggerFactory>().Create(GetType().FullName);
             _notifyService = ObjectContainer.Resolve<INotifyService>();
+            // 2015-07-08 Edit by JiaK----
+            // Add task handle failure notify
+            _notify = ObjectContainer.Resolve<INotify>();
+            _serializer = ObjectContainer.Resolve<IJsonSerializer>();
         }
 
         public Consumer Start()
@@ -314,6 +323,13 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
                 _taskService.UpdateTaskInQueue(task);
                 _logger.Error(string.Format("Process task failed:{0}", task.ToString()), exp);
                 _notifyService.AddErrorNotify(string.Format("任务处理失败:{0}", task.ToString()),task,exp);
+                // 2015-07-08 Edit by JiaK----
+                // Add task handle failure notify
+                if (!string.IsNullOrEmpty(_notify.GetUrl()))
+                {
+                    var notifyMsg = _serializer.Serialize(task.ToString());
+                    _notify.Notify(notifyMsg);
+                }
             }
         }
 
