@@ -63,3 +63,14 @@
    PS:补充解决方案，也可以保留原有的sigleton taskHandler,但需要在对taskHandler处理任务前lock，在taskProcess Action处理完毕（并行为开新线程）之后再释放资源；
       该补充解决方案会共享资源的锁定，对并发处理的性能会有一定影响，因此未采用。
 
+//=========================================================================================================
+//========TAPPER V1.1.5		Release on 2015-07-08	By JiaK
+//=========================================================================================================
+1：Tapper运行监控界面新增实时消息推送服务端URL实时显示;
+2：Tapper.Engine新增SignalR部分，实现Tapper执行过程中信息的实时客户端推送，目前版本仅实现客户端消息广播功能。
+   实时消息推送功能基于SignalR 2.2.0开发。
+   需要接收推送消息的客户端，需要连接至该URL，并实现对应的javascript function，接收实时消息。
+   在javascript中需要对client实现的function原型为：hubObj.client.receiveMsg = function(msg){ // TODO: show the msg...}
+   其中，hubObj为客户端获取的hub对象，receiveMsg为客户端必须实现的消息推送回调方法，msg为消息体。
+
+
