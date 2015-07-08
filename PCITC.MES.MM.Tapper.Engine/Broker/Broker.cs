@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using PCITC.MES.MM.Tapper.Engine.Entities;
+using PCITC.MES.MM.Tapper.Engine.SignalR;
 using PCITC.MES.MM.Tapper.Framework.Autofac;
 using PCITC.MES.MM.Tapper.Framework.Log4Net;
 
@@ -15,11 +16,17 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
         private readonly IConsumerManager _consumerManager;
         private readonly INotifyService _notifyService;
         private readonly ITaskService _taskService;
+        private readonly INotify _notify;
 
         public BrokerSettings Setting { get; private set; }
         public static Broker Instance
         {
             get { return _instance; }
+        }
+
+        public string NotifyUrl
+        {
+            get { return _notify.GetUrl(); }
         }
 
         private Broker(BrokerSettings setting)
@@ -31,6 +38,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
             _consumerManager = ObjectContainer.Resolve<IConsumerManager>();
             _notifyService = ObjectContainer.Resolve<INotifyService>();
             _logger = ObjectContainer.Resolve<ILog4NetLoggerFactory>().Create(GetType().FullName);
+            _notify = ObjectContainer.Resolve<INotify>();
         }
 
         public static Broker Create(BrokerSettings setting = null)
@@ -49,6 +57,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
             _queueService.Start();
             _consumerManager.Start();
             _notifyService.Start();
+            _notify.Start();
             _logger.Info("Broker started, producer=[{0}], consumer=[{1}], admin=[{2}]", Setting.ProducerIPEndPoint, Setting.ConsumerIPEndPoint, Setting.AdminIPEndPoint);
             _notifyService.AddDebugNotify("任务调度器启动", null, null);
             return this;

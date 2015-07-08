@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using PCITC.MES.MM.Tapper.Framework.WcfParser;
@@ -29,19 +28,23 @@ namespace PCITC.MES.MM.Tapper.Engine.Consumer
                 {
                     var mi = typeof (ITapperSrv).GetMethod(methodName);
                     var paramArray = GetParametersArray(mi, methodParams);
+#if DEBUG
                     try
                     {
-                            //Trace.WriteLine(string.Format("Task invoke:{0}",methodName));
-                            dynamic result = WcfChannelFactory.ExecuteMetod<ITapperSrv>("ur", ServiceUrl, ServiceBinding,
+#endif
+                        //Trace.WriteLine(string.Format("Task invoke:{0}",methodName));
+                        dynamic result = WcfChannelFactory.ExecuteMetod<ITapperSrv>("ur", ServiceUrl, ServiceBinding,
                             methodName, paramArray);
-                            //Trace.WriteLine(result.ToString());
-                            return result;
+                        //Trace.WriteLine(result.ToString());
+                        return result;
+#if DEBUG
                     }
                     catch (Exception exp)
                     {
                         throw exp;
                     }
-                }
+#endif
+                    }
                     break;
                 case "CU":
                 {

@@ -62,3 +62,4 @@
    修复方式，将taskHandler作为concurrentDictionary， 在consumer订阅topic的同时，为该topic新增非sigleton的taskHandler。
    PS:补充解决方案，也可以保留原有的sigleton taskHandler,但需要在对taskHandler处理任务前lock，在taskProcess Action处理完毕（并行为开新线程）之后再释放资源；
       该补充解决方案会共享资源的锁定，对并发处理的性能会有一定影响，因此未采用。
+

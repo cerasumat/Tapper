@@ -59,11 +59,15 @@
             this.dgvLog = new System.Windows.Forms.DataGridView();
             this.timerStatistical = new System.Windows.Forms.Timer(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tsslNotify = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLog)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -315,7 +319,7 @@
             "ALL",
             "INFO",
             "DEBUG",
-            "WARNING",
+            "WARN",
             "ERROR",
             "FATAL"});
             this.cbLevel.Location = new System.Drawing.Point(337, 82);
@@ -423,12 +427,36 @@
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.Click += new System.EventHandler(this.notifyIcon1_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.tsslNotify});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 593);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1258, 29);
+            this.statusStrip1.TabIndex = 1;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(159, 24);
+            this.toolStripStatusLabel1.Text = "Tapper Notify At:";
+            // 
+            // tsslNotify
+            // 
+            this.tsslNotify.Name = "tsslNotify";
+            this.tsslNotify.Size = new System.Drawing.Size(0, 24);
+            // 
             // MainForm
             // 
             this.AcceptButton = this.btnQuery;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1258, 604);
+            this.ClientSize = new System.Drawing.Size(1258, 622);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -453,7 +481,10 @@
             this.groupBox3.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLog)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -488,6 +519,9 @@
         private System.Windows.Forms.Timer timerStatistical;
         private System.Windows.Forms.Label lbSysTime;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel tsslNotify;
     }
 }
 

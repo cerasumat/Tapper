@@ -1,11 +1,7 @@
-﻿using System;
+﻿//#define HANDLE_CLOSE
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 using PCITC.MES.MM.Tapper.Engine.Broker;
@@ -13,6 +9,7 @@ using PCITC.MES.MM.Tapper.Engine.Configurations;
 using PCITC.MES.MM.Tapper.Engine.Consumer;
 using PCITC.MES.MM.Tapper.Engine.Entities;
 using PCITC.MES.MM.Tapper.Engine.Producer;
+using PCITC.MES.MM.Tapper.Engine.SignalR;
 using PCITC.MES.MM.Tapper.Framework.Autofac;
 using PCITC.MES.MM.Tapper.Framework.Configurations;
 using PCITC.MES.MM.Tapper.Framework.Dapper;
@@ -40,16 +37,28 @@ namespace PCITC.MES.MM.Tapper.Console
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            //IList<string> addresses=new List<string>();
+            //foreach (var interfaces in NetworkInterface.GetAllNetworkInterfaces())
+            //{
+            //    foreach (var address in interfaces.GetIPProperties().UnicastAddresses)
+            //    {
+            //        if (address.Address.AddressFamily == AddressFamily.InterNetwork)
+            //        {
+            //            addresses.Add(address.Address.ToString());
+            //        }
+            //    }
+            //}
+
             using (var connection = new OracleConnection(Setting.ConnectionStr))
             {
                 connection.Open();
-                _topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable,"*");
+                _topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable, "*");
                 if (_topics == null)
                 {
                     return;
                 }
                 cbTopic.Items.Add("ALL");
-                cbTopic.Items.AddRange(_topics.Select(t=>t.TopicName).ToArray());
+                cbTopic.Items.AddRange(_topics.Select(t => t.TopicName).ToArray());
                 connection.Close();
             }
             cbTopic.SelectedIndex = 0;
@@ -71,6 +80,8 @@ namespace PCITC.MES.MM.Tapper.Console
                 _producer = new Producer("P1").Start();
             else
                 _producer.Start();
+
+#if !HANDLE_CLOSE
             if (_consumers != null && _consumers.Count > 0)
             {
                 foreach (var consumer in _consumers)
@@ -91,9 +102,11 @@ namespace PCITC.MES.MM.Tapper.Console
                     }
                 }
             }
+#endif
             btnStart.Enabled = false;
             btnStop.Enabled = true;
             _started = true;
+            tsslNotify.Text = _broker.NotifyUrl;
         }
 
         private void timerStatistical_Tick(object sender, EventArgs e)
@@ -193,6 +206,7 @@ namespace PCITC.MES.MM.Tapper.Console
             btnStart.Enabled = true;
             btnStop.Enabled = false;
             _started = false;
+            tsslNotify.Text = string.Empty;
         }
 
         static void InitializeTapper()
@@ -202,7 +216,8 @@ namespace PCITC.MES.MM.Tapper.Console
                 .RegisterCommonComponents()
                 .UseLog4Net()
                 .UseJsonNet()
-                .RegisterTapperComponents();
+                .RegisterTapperComponents()
+                .RegisterNotification();
         }
 
         private void MainForm_SizeChanged(object sender, EventArgs e)

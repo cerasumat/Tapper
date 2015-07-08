@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading;
 using Oracle.ManagedDataAccess.Client;
 using PCITC.MES.MM.Tapper.Engine.Entities;
+using PCITC.MES.MM.Tapper.Framework.Autofac;
 using PCITC.MES.MM.Tapper.Framework.Dapper;
 using PCITC.MES.MM.Tapper.Framework.Log4Net;
 using PCITC.MES.MM.Tapper.Framework.Scheduling;

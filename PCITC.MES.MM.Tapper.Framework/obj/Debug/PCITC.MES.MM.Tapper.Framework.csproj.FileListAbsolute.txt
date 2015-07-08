@@ -13,3 +13,4 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\N
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\System.Web.Cors.dll
