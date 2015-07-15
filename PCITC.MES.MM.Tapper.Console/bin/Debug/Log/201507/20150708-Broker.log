@@ -1,0 +1,33 @@
+[2015-07-08 14:43:21,417]  INFO BrokerLogger:
+初始化Topic模型...
+
+[2015-07-08 14:43:21,657]  INFO BrokerLogger:
+Broker started, producer=[192.168.22.6:7778], consumer=[192.168.22.6:7779], admin=[192.168.22.6:7777]
+
+[2015-07-08 14:44:21,453]  INFO BrokerLogger:
+开始持久化通知信息至Oracle...
+
+[2015-07-08 15:04:34,186]  INFO BrokerLogger:
+初始化Topic模型...
+
+[2015-07-08 15:04:34,441]  INFO BrokerLogger:
+Broker started, producer=[192.168.22.6:7778], consumer=[192.168.22.6:7779], admin=[192.168.22.6:7777]
+
+[2015-07-08 16:10:28,708]  INFO BrokerLogger:
+初始化Topic模型...
+
+[2015-07-08 16:10:28,943]  INFO BrokerLogger:
+Broker started, producer=[192.168.22.6:7778], consumer=[192.168.22.6:7779], admin=[192.168.22.6:7777]
+
+[2015-07-08 16:11:28,753]  INFO BrokerLogger:
+开始持久化通知信息至Oracle...
+
+[2015-07-08 16:16:52,762]  INFO BrokerLogger:
+初始化Topic模型...
+
+[2015-07-08 16:16:53,012]  INFO BrokerLogger:
+Broker started, producer=[192.168.22.6:7778], consumer=[192.168.22.6:7779], admin=[192.168.22.6:7777]
+
+[2015-07-08 16:17:52,810]  INFO BrokerLogger:
+开始持久化通知信息至Oracle...
+

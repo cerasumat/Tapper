@@ -1,0 +1,17 @@
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\PCITC.MES.MM.Tapper.Engine.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\PCITC.MES.MM.Tapper.Engine.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Oracle.ManagedDataAccess.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\PCITC.MES.MM.Tapper.Framework.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Newtonsoft.Json.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\log4net.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Dapper.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Autofac.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\PCITC.MES.MM.Tapper.Framework.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Newtonsoft.Json.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\log4net.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Dapper.pdb
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Dapper.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\bin\Release\Autofac.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Release\PCITC.MES.MM.Tapper.Engine.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Release\PCITC.MES.MM.Tapper.Engine.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\obj\Release\PCITC.MES.MM.Tapper.Engine.pdb

@@ -1,0 +1,264 @@
+[2015-06-25 21:27:03,988]  INFO ProducerLogger:
+Producer start:Id=P1
+
+[2015-06-25 21:27:04,009]  INFO ProducerLogger:
+开始同步规则模型及任务模型...
+
+[2015-06-25 21:27:04,012]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,012]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=IP,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,012]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,012]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,013]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,042]  INFO ProducerLogger:
+加载规则模型82条，任务模型14条.
+
+[2015-06-25 21:27:15,011]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,022]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,022]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO ProducerLogger:
+生成新的链表任务,等待激活:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Created]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO ProducerLogger:
+生成新的链表Header任务,等待调度:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+

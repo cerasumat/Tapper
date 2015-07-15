@@ -1,0 +1,561 @@
+[2015-06-25 21:27:03,960]  INFO BrokerLogger:
+初始化Topic模型...
+
+[2015-06-25 21:27:03,983]  INFO BrokerLogger:
+Broker started, producer=[192.168.22.6:7778], consumer=[192.168.22.6:7779], admin=[192.168.22.6:7777]
+
+[2015-06-25 21:27:15,011]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,013]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,014]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,015]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,016]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,017]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,018]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,022]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,022]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,023]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=CU,QueueId=1,Task=[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=UR,QueueId=1,Task=[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,024]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=PB,QueueId=1,Task=[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,025]  INFO BrokerLogger:
+任务加入队列:Topic=PB,QueueId=1,Task=[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Created]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,026]  INFO BrokerLogger:
+任务加入队列:Topic=TM,QueueId=1,Task=[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:15,030]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,030]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,031]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,031]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,046]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,046]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,061]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,077]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]任务进行第1次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,458]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,459]  INFO BrokerLogger:
+任务链子任务激活:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2099-12-31 00:00:00,TaskTimeOutAt=2099-12-31 00:03:00,TaskState=Waiting]
+
+[2015-06-25 21:27:16,564]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,633]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,747]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,750]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,799]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,103]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,139]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,140]  INFO BrokerLogger:
+任务进行第1次调度：[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:17,TaskTimeOutAt=2015-06-25 21:30:17,TaskState=Running]
+
+[2015-06-25 21:27:17,911]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,033]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,216]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,614]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,633]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,639]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,647]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,681]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,837]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,939]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,954]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,017]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,117]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,123]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:17,TaskTimeOutAt=2015-06-25 21:30:17,TaskState=Failed]
+
+[2015-06-25 21:27:19,206]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,421]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,428]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,417]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,564]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,917]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,073]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,360]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,659]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,712]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,862]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,337]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,402]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,428]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,522]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,523]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,549]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,570]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,631]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,774]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,780]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,885]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,074]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,182]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,381]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,821]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,884]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,999]  INFO BrokerLogger:
+任务移除:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:17,TaskTimeOutAt=2015-06-25 21:30:17,TaskState=Failed]
+
+[2015-06-25 21:27:24,001]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,323]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,380]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,833]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,834]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,057]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,115]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,150]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,364]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,808]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:26,516]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:26,774]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:27,437]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:28,516]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:28,535]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:28,845]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:29,619]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Failed]
+
+[2015-06-25 21:27:29,863]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:30,555]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:31,059]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:31,501]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:31,833]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:32,745]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:32,997]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:33,622]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,046]  WARN BrokerLogger:
+任务第1次调度失败,准备重新调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Waiting]
+
+[2015-06-25 21:27:34,077]  INFO BrokerLogger:
+任务进行第2次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:34,TaskTimeOutAt=2015-06-25 21:30:34,TaskState=Running]
+
+[2015-06-25 21:27:34,205]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,255]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,835]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:35,313]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:36,086]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:36,423]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Failed]
+
+[2015-06-25 21:27:37,146]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:34,TaskTimeOutAt=2015-06-25 21:30:34,TaskState=Failed]
+
+[2015-06-25 21:27:49,047]  INFO BrokerLogger:
+任务进行第3次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Running]
+
+[2015-06-25 21:27:49,047]  WARN BrokerLogger:
+任务第2次调度失败,准备重新调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:34,TaskTimeOutAt=2015-06-25 21:30:34,TaskState=Running]
+
+[2015-06-25 21:27:49,047]  WARN BrokerLogger:
+任务第1次调度失败,准备重新调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Waiting]
+
+[2015-06-25 21:27:49,077]  INFO BrokerLogger:
+任务进行第2次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Running]
+
+[2015-06-25 21:27:49,609]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Failed]
+
+[2015-06-25 21:27:49,940]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Failed]
+
+[2015-06-25 21:28:03,984]  INFO BrokerLogger:
+开始持久化通知信息至Oracle...
+
+[2015-06-25 21:28:04,061]  WARN BrokerLogger:
+任务第2次调度失败,准备重新调度:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Waiting]
+
+[2015-06-25 21:28:04,077]  INFO BrokerLogger:
+任务进行第3次调度：[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:28:04,TaskTimeOutAt=2015-06-25 21:31:04,TaskState=Running]
+
+[2015-06-25 21:28:04,468]  INFO BrokerLogger:
+任务状态更新:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:28:04,TaskTimeOutAt=2015-06-25 21:31:04,TaskState=Failed]
+
+[2015-06-25 21:29:05,171]  INFO BrokerLogger:
+开始持久化通知信息至Oracle...
+

@@ -1,0 +1,71 @@
+[2015-06-29 11:01:49,361]  INFO ConsumerLogger:
+Consumer start:Id=C1.00
+
+[2015-06-29 11:02:06,804] ERROR ConsumerLogger:
+Pull tasks exception. ConsumerId:C1.00
+
+System.ArgumentNullException: 值不能为 null。
+参数名: key
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.PullTaskFromBroker() 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 201
+[2015-06-29 11:02:07,306]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C1.00,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-29 11:02:07,995]  INFO ConsumerLogger:
+Consumer start:Id=C2.00
+
+[2015-06-29 11:02:08,019]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C2.00,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-29 11:02:14,686]  INFO ConsumerLogger:
+Consumer start:Id=C3.00
+
+[2015-06-29 11:02:14,710]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C3.00,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-29 11:02:18,066]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-29 11:02:18,067]  INFO ConsumerLogger:
+Consumer start:Id=C4.00
+
+[2015-06-29 11:02:18,582]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C4.00,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-29 11:02:18,585]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:6条, Fail:0条].
+
+[2015-06-29 11:02:18,587]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2015-06-29 11:02:18,TaskTimeOutAt=2015-06-29 11:05:18,TaskState=Running]
+
+[2015-06-29 11:02:19,228]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-29 11:02:19,230]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2015-06-29 11:02:18,TaskTimeOutAt=2015-06-29 11:05:18,TaskState=Running]
+
+[2015-06-29 11:02:19,559]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:3条, Fail:0条].
+
+[2015-06-29 11:02:19,885]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:13条, Fail:0条].
+
+[2015-06-29 11:02:19,887]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2015-06-29 11:02:18,TaskTimeOutAt=2015-06-29 11:05:18,TaskState=Running]
+
+[2015-06-29 11:02:20,227]  INFO ConsumerLogger:
+Pull tasks: Topic:TM,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-29 11:02:20,701]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:3条, Fail:0条].
+
+[2015-06-29 11:02:20,702]  INFO ConsumerLogger:
+Pull tasks: Topic:TM,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-29 11:02:20,710]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2015-06-29 11:02:18,TaskTimeOutAt=2015-06-29 11:05:18,TaskState=Running]
+
+[2015-06-29 11:02:20,808]  INFO ConsumerLogger:
+Consumer start:Id=C5.00
+

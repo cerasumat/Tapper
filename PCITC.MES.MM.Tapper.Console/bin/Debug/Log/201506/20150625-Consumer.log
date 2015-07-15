@@ -1,0 +1,697 @@
+[2015-06-25 21:27:03,994]  INFO ConsumerLogger:
+Consumer start:Id=C1.00
+
+[2015-06-25 21:27:03,995]  INFO ConsumerLogger:
+Consumer start:Id=C2.00
+
+[2015-06-25 21:27:03,998]  INFO ConsumerLogger:
+Consumer start:Id=C3.00
+
+[2015-06-25 21:27:04,007]  INFO ConsumerLogger:
+Consumer start:Id=C4.00
+
+[2015-06-25 21:27:04,009]  INFO ConsumerLogger:
+Consumer start:Id=C5.00
+
+[2015-06-25 21:27:04,012]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C1.00,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,013]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C2.00,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,016]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C4.00,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,016]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C3.00,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:04,016]  INFO ConsumerLogger:
+任务队列变更,已进行同步:ConsumerId=C5.00,Topic=IP,Old QueueIds=[],New QueueIds=[1]
+
+[2015-06-25 21:27:15,030]  INFO ConsumerLogger:
+Pull tasks: Topic:PB,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:15,030]  INFO ConsumerLogger:
+Pull tasks: Topic:TM,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-25 21:27:15,031]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-25 21:27:15,031]  INFO ConsumerLogger:
+Pull tasks: Topic:CU,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-25 21:27:15,046]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:16条, Fail:0条].
+
+[2015-06-25 21:27:15,046]  INFO ConsumerLogger:
+Pull tasks: Topic:TM,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:15,061]  INFO ConsumerLogger:
+Pull tasks: Topic:CU,QueueId:1[Success:3条, Fail:0条].
+
+[2015-06-25 21:27:15,077]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:10条, Fail:0条].
+
+[2015-06-25 21:27:15,537]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,537]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,537]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:15,538]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,459]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=PB,TaskName=调度业务-解析,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,459]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,564]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,564]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,633]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=低温罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,634]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,747]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=3号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,747]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,750]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=工贸罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,750]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:16,799]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=苯抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:16,799]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:17,103]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,103]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:17,140]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,140]  INFO ConsumerLogger:
+Pull tasks: Topic:PB,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:17,140]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:17,911]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:17,911]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:17,999]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,033]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,034]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,216]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ气分,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,216]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,615]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,615]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,633]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,633]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,641]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重油制氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,642]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,647]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,647]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,681]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅲ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,682]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,837]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=烯烃部罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,837]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:18,939]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ非芳加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:18,939]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:17,TaskTimeOutAt=2015-06-25 21:30:17,TaskState=Running]
+
+[2015-06-25 21:27:18,954]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=歧化装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,017]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=虚拟罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,036]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:19,036]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:19,117]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=调合沥青罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,119]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:19,123] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=PB,TaskName=调度业务-解析提交,Node=中国石油化工股份有限公司镇海炼化分公司,TaskDispathAt=2015-06-25 21:27:17,TaskTimeOutAt=2015-06-25 21:30:17,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 存在没有提交数据或者节点量缺失数据，不允许提交移动解析数据！
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 IParsService.CommitPars(String userId, Int32 fctrId, DateTime begShiftTime, DateTime endShiftTime)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 PCITC.MES.MM.Tapper.Framework.WcfParser.WcfChannelFactory.ExecuteMetod[T](String factoryName, String uri, String bindingName, String methodName, Object[] args) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\WcfParser\WcfChannelFactory.cs:行号 71
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 78
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:27:19,206]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=油制氢罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,421]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=重整油分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,428]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=MTBE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:19,536]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:19,536]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:19,536]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,036]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,417]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成码罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,418]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,564]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅠPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,564]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,917]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=二甲苯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:20,917]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,917]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:20,917]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,037]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,038]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,037]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,074]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=干气预精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,360]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=4号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,659]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅱ芳烃抽提,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,659]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,712]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:21,712]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:21,862]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,337]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,337]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,403]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=乙烯罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,403]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,428]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=丁二烯装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,428]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,499]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,522]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=原料罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,523]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=汽油脱硫醇,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,538]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,538]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,549]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,549]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:22,570]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=1号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,631]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=液硫罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,774]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=海达罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,781]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=PE装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:22,885]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ轻烃回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,039]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,039]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,039]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,074]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=乙烯裂解,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,182]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=加裂精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,381]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,539]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,539]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,539]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:23,821]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=裂解汽油加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:23,884]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=2号站罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,001]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,039]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:24,040]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:24,323]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=TM,TaskName=罐区创建罐检尺,Node=成品油罐区,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,380]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,540]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:24,540]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:24,833]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=ⅡPP,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:24,834]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=EO/EG装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,041]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:25,057]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=干气/液化气脱硫,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,115]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=Ⅰ焦化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,150]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=CU,TaskName=化工装置投入产出全自动,Node=MTBE/丁烯-1,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,364]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=碱洗电精制,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:25,541]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:25,809]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:26,041]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:26,516]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:26,541]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:26,775]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅵ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:27,042]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:27,437]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=航煤加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:27,542]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:28,043]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:28,516]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:28,535]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ催化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:28,543]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:28,845]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=溶剂油装置,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:29,043]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:29,555]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:29,619] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 计算失败:An error occured while parsing the expression. See the InnerException property for details,公式=[DIFF('Ⅱ常减压原油进FIQ0100A')+DIFF('Ⅱ常减压原油进FIQ0100B')*(100-VAL('Ⅱ常燃料气压力B0BPIC0403','END')/100)]
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:27:29,863]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅴ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:30,055]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:30,555]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:30,556]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:31,056]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:31,059]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:31,501]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=气体膜分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:31,557]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:31,833]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=轻碳五分离,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:32,057]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:32,557]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:32,745]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ常,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:32,997]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅡS Zorb,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:33,058]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:33,558]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:33,622]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ加氢裂化,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,059]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:34,077]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:34,205]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=焦气回收,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,256]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅰ催化气化器,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:34,559]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:34,835]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅶ硫磺,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:35,059]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:35,313]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=ⅠPSA,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:35,560]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:36,061]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Running]
+
+[2015-06-25 21:27:36,086]  INFO ConsumerLogger:
+Process task successful:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅲ加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Complete]
+
+[2015-06-25 21:27:36,423] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:15,TaskTimeOutAt=2015-06-25 21:30:15,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 没有符合条件的班次仪表数据,可能仪表均为只读,或仪表配置公式均为VAR算法
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:27:36,561]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:34,TaskTimeOutAt=2015-06-25 21:30:34,TaskState=Running]
+
+[2015-06-25 21:27:37,146] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:34,TaskTimeOutAt=2015-06-25 21:30:34,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 计算失败:An error occured while parsing the expression. See the InnerException property for details,公式=[DIFF('Ⅱ常减压原油进FIQ0100A')+DIFF('Ⅱ常减压原油进FIQ0100B')*(100-VAL('Ⅱ常燃料气压力B0BPIC0403','END')/100)]
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:27:49,047]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:49,072]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Running]
+
+[2015-06-25 21:27:49,077]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:27:49,576]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Running]
+
+[2015-06-25 21:27:49,610] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅱ常,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 计算失败:An error occured while parsing the expression. See the InnerException property for details,公式=[DIFF('Ⅱ常减压原油进FIQ0100A')+DIFF('Ⅱ常减压原油进FIQ0100B')*(100-VAL('Ⅱ常燃料气压力B0BPIC0403','END')/100)]
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:27:49,940] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:27:49,TaskTimeOutAt=2015-06-25 21:30:49,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 没有符合条件的班次仪表数据,可能仪表均为只读,或仪表配置公式均为VAR算法
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290
+[2015-06-25 21:28:04,077]  INFO ConsumerLogger:
+Pull tasks: Topic:UR,QueueId:1[Success:1条, Fail:0条].
+
+[2015-06-25 21:28:04,088]  INFO ConsumerLogger:
+Task process begin:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:28:04,TaskTimeOutAt=2015-06-25 21:31:04,TaskState=Running]
+
+[2015-06-25 21:28:04,468] ERROR ConsumerLogger:
+Process task failed:[TaskTopic=UR,TaskName=炼油装置班次处理,Node=Ⅳ重整预加氢,TaskDispathAt=2015-06-25 21:28:04,TaskTimeOutAt=2015-06-25 21:31:04,TaskState=Failed]
+
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 没有符合条件的班次仪表数据,可能仪表均为只读,或仪表配置公式均为VAR算法
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   在 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 ITapperSrv.HandleUnit(String userId, Int32 unitId, DateTime begTime, DateTime endTime, Int32 reviseMode)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.MvTaskHandler.TaskExcute(String topic, String methodName, Dictionary`2 methodParams) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\MvTaskHandler.cs:行号 44
+   在 PCITC.MES.MM.Tapper.Engine.Consumer.Consumer.ProcessTask(TaskEntity task) 位置 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Engine\Consumer\Consumer.cs:行号 290

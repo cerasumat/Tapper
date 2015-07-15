@@ -1,0 +1,84 @@
+[2015-07-08 14:43:21,442] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.RemoveConsumedTask, dueTime=10000, period=10000
+
+[2015-07-08 14:43:21,444] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.CheckFaildTask, dueTime=15000, period=15000
+
+[2015-07-08 14:43:21,444] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ConsumerManager.CheckHeartbeatTimes, dueTime=5000, period=5000
+
+[2015-07-08 14:43:21,445] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=NotifyInOracleService.StoreNotifyInOracle, dueTime=60000, period=60000
+
+[2015-07-08 14:43:21,662] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ModelService.RefreshModelInMemory, dueTime=3, period=600000
+
+[2015-07-08 14:43:21,663] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-07-08 14:43:21,663] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.GenerateTaskFromRules, dueTime=11000, period=11000
+
+[2015-07-08 15:04:34,215] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.RemoveConsumedTask, dueTime=10000, period=10000
+
+[2015-07-08 15:04:34,217] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.CheckFaildTask, dueTime=15000, period=15000
+
+[2015-07-08 15:04:34,218] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ConsumerManager.CheckHeartbeatTimes, dueTime=5000, period=5000
+
+[2015-07-08 15:04:34,218] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=NotifyInOracleService.StoreNotifyInOracle, dueTime=60000, period=60000
+
+[2015-07-08 15:04:34,447] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ModelService.RefreshModelInMemory, dueTime=3, period=600000
+
+[2015-07-08 15:04:34,448] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-07-08 15:04:34,448] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.GenerateTaskFromRules, dueTime=11000, period=11000
+
+[2015-07-08 16:10:28,733] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.RemoveConsumedTask, dueTime=10000, period=10000
+
+[2015-07-08 16:10:28,735] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.CheckFaildTask, dueTime=15000, period=15000
+
+[2015-07-08 16:10:28,735] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ConsumerManager.CheckHeartbeatTimes, dueTime=5000, period=5000
+
+[2015-07-08 16:10:28,736] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=NotifyInOracleService.StoreNotifyInOracle, dueTime=60000, period=60000
+
+[2015-07-08 16:10:28,949] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ModelService.RefreshModelInMemory, dueTime=3, period=600000
+
+[2015-07-08 16:10:28,949] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-07-08 16:10:28,949] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.GenerateTaskFromRules, dueTime=11000, period=11000
+
+[2015-07-08 16:16:52,790] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.RemoveConsumedTask, dueTime=10000, period=10000
+
+[2015-07-08 16:16:52,791] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.CheckFaildTask, dueTime=15000, period=15000
+
+[2015-07-08 16:16:52,792] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ConsumerManager.CheckHeartbeatTimes, dueTime=5000, period=5000
+
+[2015-07-08 16:16:52,792] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=NotifyInOracleService.StoreNotifyInOracle, dueTime=60000, period=60000
+
+[2015-07-08 16:16:53,020] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ModelService.RefreshModelInMemory, dueTime=3, period=600000
+
+[2015-07-08 16:16:53,021] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-07-08 16:16:53,021] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.GenerateTaskFromRules, dueTime=11000, period=11000
+

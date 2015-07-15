@@ -1,0 +1,294 @@
+[2015-07-02 19:30:46,693]  INFO ProducerLogger:
+Producer start:Id=P1
+
+[2015-07-02 19:30:46,706]  INFO ProducerLogger:
+开始同步规则模型及任务模型...
+
+[2015-07-02 19:30:46,708]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:30:46,708]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=IP,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:30:46,708]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:30:46,708]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:30:46,708]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:30:46,778]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30013,NodeId=1040,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,783]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30007,NodeId=1050,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,789]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30023,NodeId=1060,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,794]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30003,NodeId=1070,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,798]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30009,NodeId=1080,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,804]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30005,NodeId=1000,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,809]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30039,NodeId=1010,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,814]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30001,NodeId=1020,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,819]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30011,NodeId=1090,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,824]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30031,NodeId=1100,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,829]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30041,NodeId=1110,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,834]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30017,NodeId=1120,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,839]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30047,NodeId=1130,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,844]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30049,NodeId=1140,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,850]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30037,NodeId=1150,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,855]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30035,NodeId=1160,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,861]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=30021,NodeId=1030,NodeType=区域,TaskId=100001]
+
+[2015-07-02 19:30:46,866]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=40001,NodeId=1,NodeType=工厂,TaskId=400001]
+
+[2015-07-02 19:30:46,872]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=40002,NodeId=1,NodeType=工厂,TaskId=400002]
+
+[2015-07-02 19:30:46,877]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=40004,NodeId=1,NodeType=工厂,TaskId=400001]
+
+[2015-07-02 19:30:46,883]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=40005,NodeId=1,NodeType=工厂,TaskId=400002]
+
+[2015-07-02 19:30:46,889]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10030,NodeId=250,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,894]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10029,NodeId=240,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,899]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10028,NodeId=230,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,905]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10027,NodeId=220,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,910]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10026,NodeId=211,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,915]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10025,NodeId=210,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,921]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10024,NodeId=200,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,927]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10023,NodeId=190,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,932]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10022,NodeId=180,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,938]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10021,NodeId=170,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,943]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10020,NodeId=160,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,949]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10019,NodeId=150,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,954]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10018,NodeId=140,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,960]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10017,NodeId=130,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,965]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10016,NodeId=120,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,970]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10015,NodeId=110,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,975]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10014,NodeId=100,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,980]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10013,NodeId=90,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,985]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10012,NodeId=80,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,990]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10011,NodeId=70,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:46,996]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10010,NodeId=60,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,001]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10009,NodeId=50,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,007]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10008,NodeId=40,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,012]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10007,NodeId=30,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,018]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10006,NodeId=20,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,023]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10005,NodeId=10,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,029]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10002,NodeId=630,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,034]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10031,NodeId=260,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,040]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10032,NodeId=270,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,045]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10033,NodeId=280,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,051]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10034,NodeId=290,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,056]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10035,NodeId=350,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,062]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10036,NodeId=360,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,067]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10037,NodeId=370,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,073]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10038,NodeId=380,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,078]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10039,NodeId=390,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,083]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10040,NodeId=400,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,089]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10041,NodeId=440,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,095]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10042,NodeId=450,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,100]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10043,NodeId=460,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,106]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10044,NodeId=470,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,111]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=10048,NodeId=500,NodeType=装置,TaskId=1007]
+
+[2015-07-02 19:30:47,119]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20018,NodeId=610,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,125]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20017,NodeId=600,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,130]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20016,NodeId=590,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,136]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20015,NodeId=580,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,141]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20014,NodeId=560,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,147]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20013,NodeId=550,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,152]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20012,NodeId=540,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,157]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20011,NodeId=530,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,163]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20010,NodeId=520,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,168]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20009,NodeId=510,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,174]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20008,NodeId=430,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,179]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20007,NodeId=411,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,185]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20006,NodeId=410,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,190]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20005,NodeId=340,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,197]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20004,NodeId=330,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,202]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20003,NodeId=320,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,208]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20002,NodeId=310,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,213]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20001,NodeId=300,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,219]  INFO ProducerLogger:
+已删除过期规则模型:[RuleId=20019,NodeId=325,NodeType=装置,TaskId=2005]
+
+[2015-07-02 19:30:47,239]  INFO ProducerLogger:
+加载规则模型0条，任务模型14条.
+
+[2015-07-02 19:34:24,208]  INFO ProducerLogger:
+Producer start:Id=P1
+
+[2015-07-02 19:34:24,224]  INFO ProducerLogger:
+开始同步规则模型及任务模型...
+
+[2015-07-02 19:34:24,227]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=UR,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:34:24,227]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=IP,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:34:24,227]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=PB,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:34:24,227]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=TM,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:34:24,227]  INFO ProducerLogger:
+任务队列变更,已进行同步:ProducerId=P1,Topic=CU,Old QueueIds=[],New QueueIds=[1]
+
+[2015-07-02 19:34:24,244]  INFO ProducerLogger:
+加载规则模型0条，任务模型14条.
+

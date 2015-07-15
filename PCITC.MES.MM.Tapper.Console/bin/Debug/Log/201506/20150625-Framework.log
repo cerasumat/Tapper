@@ -1,0 +1,81 @@
+[2015-06-25 21:27:03,980] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.RemoveConsumedTask, dueTime=10000, period=10000
+
+[2015-06-25 21:27:03,982] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=TaskQueueService.CheckFaildTask, dueTime=15000, period=15000
+
+[2015-06-25 21:27:03,982] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ConsumerManager.CheckHeartbeatTimes, dueTime=5000, period=5000
+
+[2015-06-25 21:27:03,982] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=NotifyInOracleService.StoreNotifyInOracle, dueTime=60000, period=60000
+
+[2015-06-25 21:27:03,988] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=ModelService.RefreshModelInMemory, dueTime=3, period=600000
+
+[2015-06-25 21:27:03,988] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:03,988] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Producer.GenerateTaskFromRules, dueTime=11000, period=11000
+
+[2015-06-25 21:27:03,992] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:03,992] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.PullTaskFromBroker, dueTime=10000, period=16
+
+[2015-06-25 21:27:03,992] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.HeartbeatBroker, dueTime=5000, period=5000
+
+[2015-06-25 21:27:03,993] DEBUG FrameworkLogger:
+BackWorker启动, actionName=Consumer.ProcessTask, id=b14a921dd14143949fa466ad3ec1bc6f, managedThreadId=15, nativeThreadId=1
+
+[2015-06-25 21:27:03,994] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:03,994] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.PullTaskFromBroker, dueTime=10000, period=16
+
+[2015-06-25 21:27:03,994] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.HeartbeatBroker, dueTime=5000, period=5000
+
+[2015-06-25 21:27:03,995] DEBUG FrameworkLogger:
+BackWorker启动, actionName=Consumer.ProcessTask, id=3a85093f695f4892b64bdef215d7a1e1, managedThreadId=16, nativeThreadId=1
+
+[2015-06-25 21:27:03,995] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:03,995] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.PullTaskFromBroker, dueTime=10000, period=16
+
+[2015-06-25 21:27:03,997] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.HeartbeatBroker, dueTime=5000, period=5000
+
+[2015-06-25 21:27:03,998] DEBUG FrameworkLogger:
+BackWorker启动, actionName=Consumer.ProcessTask, id=bae8c1c10fa14119bb8bcf938faa7e5f, managedThreadId=17, nativeThreadId=1
+
+[2015-06-25 21:27:04,003] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:04,003] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.PullTaskFromBroker, dueTime=10000, period=16
+
+[2015-06-25 21:27:04,003] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.HeartbeatBroker, dueTime=5000, period=5000
+
+[2015-06-25 21:27:04,007] DEBUG FrameworkLogger:
+BackWorker启动, actionName=Consumer.ProcessTask, id=ceb14298ffdb42a083306af53bba5444, managedThreadId=20, nativeThreadId=1
+
+[2015-06-25 21:27:04,007] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.RefreshTopicQueues, dueTime=5, period=60000
+
+[2015-06-25 21:27:04,007] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.PullTaskFromBroker, dueTime=10000, period=16
+
+[2015-06-25 21:27:04,007] DEBUG FrameworkLogger:
+任务加入调度队列成功, actionName=Consumer.HeartbeatBroker, dueTime=5000, period=5000
+
+[2015-06-25 21:27:04,009] DEBUG FrameworkLogger:
+BackWorker启动, actionName=Consumer.ProcessTask, id=3007f8083d234152854cc5ac9a0add23, managedThreadId=21, nativeThreadId=1
+
