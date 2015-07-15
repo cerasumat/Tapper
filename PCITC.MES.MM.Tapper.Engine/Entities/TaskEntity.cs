@@ -1,4 +1,5 @@
 ﻿using System;
+using CeraSumat.Utilities.Validation;
 
 namespace PCITC.MES.MM.Tapper.Engine.Entities
 {
@@ -6,20 +7,24 @@ namespace PCITC.MES.MM.Tapper.Engine.Entities
     public class TaskEntity
     { 
         //Topic(4 topics for now: TM-罐区 CU-化工 UR-炼油 PB-生产平衡
+        [Required]
         public string Topic { get; set; }
         //entity global unique id(guid)
         public string TaskCode { get; set; }
         //生成任务实体的规则ID
+        [Required]
         public int RuleId { get; set; }
         //生成任务实体的规则名称
         public string RuleName { get; set; }
         //生成任务实体的任务ID
+        [Required]
         public int TaskId { get; set; }
         //生成任务实体的任务名称
         public string TaskName { get; set; }    
         //任务参数（JSON串）  
         public string TaskParameters { get; set; }  
         //任务实体宿主NodeId
+        [Required]
         public int NodeId { get; set; }
         //任务实体宿主Node名称
         public string NodeName { get; set; }
@@ -28,14 +33,20 @@ namespace PCITC.MES.MM.Tapper.Engine.Entities
         //任务实体宿主Node类型名称
         public string NodeTypeName { get; set; }
         //任务行为
+        [Required]
         public string TaskAction { get; set; }
         //任务生效时间
+        [Required]
         public DateTime TaskActiveAt { get; set; }
         //任务过期时间
+        [Required]
         public DateTime TaskExpireAt { get; set; }
         //任务最大调度时长(s)
+        [Required]
+        [GreaterThan(30)]
         public int TaskMaxDispatchTime { get; set; }
         //任务开始调度时间
+        [Required]
         public DateTime TaskDispatchAt { get; set; }
         //task dispatch time deadline('running' state last over this deadline would turn to 'failed' state)
         public DateTime TaskTimeOutAt

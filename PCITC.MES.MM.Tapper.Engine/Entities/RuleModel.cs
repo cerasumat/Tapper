@@ -1,4 +1,5 @@
 ﻿using System;
+using CeraSumat.Utilities.Validation;
 
 namespace PCITC.MES.MM.Tapper.Engine.Entities
 {
@@ -6,12 +7,14 @@ namespace PCITC.MES.MM.Tapper.Engine.Entities
     public class RuleModel
     {
         //Topic(4 topics for now: TM-罐区 CU-化工 UR-炼油 PB-生产平衡
+        [Required]
         public string Topic { get; set; }
         //规则模型ID
         public int RuleId { get; set; }
         //规则模型名称
         public string RuleName { get; set; }
         //宿主节点ID
+        [Required]
         public int NodeId { get; set; }
         //宿主节点名称
         public string NodeName { get; set; }
@@ -32,8 +35,10 @@ namespace PCITC.MES.MM.Tapper.Engine.Entities
         //rule active days of week -- <list> means that rule could be actived in a couple days of week (split by ',')
         public string RuleDaysInWeek { get; set; } 
         //规则关联任务ID
+        [Required]
         public int TaskId { get; set; }
         //规则关联任务参数(任务参数JSON串)
+        [Required]
         public string TaskParams { get; set; }
         //规则是否为单向链表的表头
         public int IsHeader { get; set; }

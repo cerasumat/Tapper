@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using Oracle.ManagedDataAccess.Client;
 using PCITC.MES.MM.Tapper.Engine.Broker;
 using PCITC.MES.MM.Tapper.Engine.Configurations;
 using PCITC.MES.MM.Tapper.Engine.Consumer;
@@ -12,7 +11,6 @@ using PCITC.MES.MM.Tapper.Engine.Producer;
 using PCITC.MES.MM.Tapper.Engine.SignalR;
 using PCITC.MES.MM.Tapper.Framework.Autofac;
 using PCITC.MES.MM.Tapper.Framework.Configurations;
-using PCITC.MES.MM.Tapper.Framework.Dapper;
 using PCITC.MES.MM.Tapper.Framework.Log4Net;
 using PCITC.MES.MM.Tapper.Framework.Serializing;
 using PCITC.MES.MM.Tapper.Framework.WcfParser;
@@ -27,15 +25,17 @@ namespace PCITC.MES.MM.Tapper.Console
         private List<Consumer> _consumers; 
         private ConsoleSetting Setting { get;}
         private IEnumerable<NotifyEntity> _logs;
-        private IEnumerable<TopicModel> _topics; 
+        private IEnumerable<TopicModel> _topics;
+        private WebApiDataAccess _da;
 
         public MainForm()
         {
             InitializeComponent();
             Setting = new ConsoleSetting();
+            _da = new WebApiDataAccess();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private async void MainForm_Load(object sender, EventArgs e)
         {
             //IList<string> addresses=new List<string>();
             //foreach (var interfaces in NetworkInterface.GetAllNetworkInterfaces())
@@ -48,19 +48,24 @@ namespace PCITC.MES.MM.Tapper.Console
             //        }
             //    }
             //}
+            
 
-            using (var connection = new OracleConnection(Setting.ConnectionStr))
-            {
-                connection.Open();
-                _topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable, "*");
-                if (_topics == null)
-                {
-                    return;
-                }
-                cbTopic.Items.Add("ALL");
-                cbTopic.Items.AddRange(_topics.Select(t => t.TopicName).ToArray());
-                connection.Close();
-            }
+            //using (var connection = new OracleConnection(Setting.ConnectionStr))
+            //{
+            //    connection.Open();
+            //    _topics = connection.QueryList<TopicModel>(null, Setting.TopicModelTable, "*");
+            //    if (_topics == null)
+            //    {
+            //        return;
+            //    }
+            //    cbTopic.Items.Add("ALL");
+            //    cbTopic.Items.AddRange(_topics.Select(t => t.TopicName).ToArray());
+            //    connection.Close();
+            //}
+            _topics = await _da.GetTopics();
+            if (_topics == null) return;
+            cbTopic.Items.Add("ALL");
+            cbTopic.Items.AddRange(_topics.Select(t => t.TopicName).ToArray());
             cbTopic.SelectedIndex = 0;
             cbLevel.SelectedIndex = 0;
             WcfChannelFactory.CloseChannelFactory();
@@ -109,11 +114,12 @@ namespace PCITC.MES.MM.Tapper.Console
             tsslNotify.Text = _broker.NotifyUrl;
         }
 
-        private void timerStatistical_Tick(object sender, EventArgs e)
+        private async void timerStatistical_Tick(object sender, EventArgs e)
         {
             lbSysTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            if (DateTime.Now.Second%10 != 0||!_started) return;
-            var staticInfos = _broker.GetBrokerStatisticInfo();
+            if (DateTime.Now.Second%10 != 0) return;
+            //var staticInfos = _broker.GetBrokerStatisticInfo();
+            var staticInfos = await _da.GetStatisticInfo();
             lbTopicCount.Text = staticInfos.TopicCount.ToString();
             lbQueueCount.Text = staticInfos.QueueCount.ToString();
             lbConsumerCount.Text = staticInfos.ConsumerCount.ToString();
@@ -121,21 +127,22 @@ namespace PCITC.MES.MM.Tapper.Console
             lbActiveTaskCount.Text = staticInfos.ActiveTaskCount.ToString();
         }
 
-        private void btnQuery_Click(object sender, EventArgs e)
+        private async void btnQuery_Click(object sender, EventArgs e)
         {
-            using (var connection = new OracleConnection(Setting.ConnectionStr))
-            {
-                connection.Open();
-                var sql = @"select * from T_MV_NOTIFY_ENTITY where notifytime>=:BegTime and notifyTime<:EndTime";
-                var condition =
-                    new
-                    {
-                        BegTime = tpDate.Value.Date,
-                        EndTime = tpDate.Value.Date.AddDays(1)
-                    };
-                _logs= connection.QueryList<NotifyEntity>(sql, condition, null, null);
-                connection.Close();
-            }
+            //using (var connection = new OracleConnection(Setting.ConnectionStr))
+            //{
+            //    var sql = @"select * from T_MV_NOTIFY_ENTITY where notifytime>=:BegTime and notifyTime<:EndTime";
+            //    var condition =
+            //        new
+            //        {
+            //            BegTime = tpDate.Value.Date,
+            //            EndTime = tpDate.Value.Date.AddDays(1)
+            //        };
+            //    connection.Open();
+            //    _logs = connection.QueryList<NotifyEntity>(sql, condition, null, null);
+            //    connection.Close();
+            //}
+            _logs = await _da.GetNotifies(tpDate.Value.Date, tpDate.Value.Date.AddDays(1));
             if (_logs.Any())
             {
                 cbTarget.Items.Clear();

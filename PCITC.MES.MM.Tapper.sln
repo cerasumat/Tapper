@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Framewo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Console", "PCITC.MES.MM.Tapper.Console\PCITC.MES.MM.Tapper.Console.csproj", "{6D59E7EF-573D-4016-987B-1292F5B40F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{E42834BD-114F-485C-80ED-8D02C411AB26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCITC.MES.MM.Tapper.Svc", "PCITC.MES.MM.Tapper.Svc\PCITC.MES.MM.Tapper.Svc.csproj", "{77EB3981-31A6-4FD6-917A-5A13CE6ADE96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D59E7EF-573D-4016-987B-1292F5B40F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42834BD-114F-485C-80ED-8D02C411AB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42834BD-114F-485C-80ED-8D02C411AB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42834BD-114F-485C-80ED-8D02C411AB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42834BD-114F-485C-80ED-8D02C411AB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EB3981-31A6-4FD6-917A-5A13CE6ADE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EB3981-31A6-4FD6-917A-5A13CE6ADE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EB3981-31A6-4FD6-917A-5A13CE6ADE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EB3981-31A6-4FD6-917A-5A13CE6ADE96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
