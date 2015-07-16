@@ -57,7 +57,7 @@ namespace PCITC.MES.MM.Tapper.Engine.Broker
             _queueService.Start();
             _consumerManager.Start();
             _notifyService.Start();
-            _notify.Start();
+            //_notify.Start();
             _logger.Info("Broker started, producer=[{0}], consumer=[{1}], admin=[{2}]", Setting.ProducerIPEndPoint, Setting.ConsumerIPEndPoint, Setting.AdminIPEndPoint);
             _notifyService.AddDebugNotify("任务调度器启动", null, null);
             return this;

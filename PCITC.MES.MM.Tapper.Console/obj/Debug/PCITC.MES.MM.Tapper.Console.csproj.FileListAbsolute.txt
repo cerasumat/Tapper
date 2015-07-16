@@ -1,7 +1,7 @@
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Engine.dll
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe.config
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Engine.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Log4Net.config
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe.config
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.exe
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Console.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
@@ -13,13 +13,13 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Mic
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Newtonsoft.Json.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Oracle.ManagedDataAccess.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Owin.dll
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Engine.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\CeraSumat.Utilities.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Microsoft.Owin.Cors.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\log4net.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Dapper.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Autofac.dll
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Engine.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\PCITC.MES.MM.Tapper.Framework.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Console\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml

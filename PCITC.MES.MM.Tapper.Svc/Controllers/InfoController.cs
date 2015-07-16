@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using PCITC.MES.MM.Tapper.Engine.Broker;
 using PCITC.MES.MM.Tapper.Engine.Entities;
 
@@ -22,7 +23,12 @@ namespace PCITC.MES.MM.Tapper.Svc.Controllers
             }
             else
             {
-                resp = Request.CreateResponse(HttpStatusCode.OK, broker.GetBrokerStatisticInfo());
+                var contentStr = JsonConvert.SerializeObject(broker.GetBrokerStatisticInfo());
+                resp =new HttpResponseMessage(HttpStatusCode.OK)
+                {
+                    Content = new StringContent(contentStr)
+                };
+                //resp = Request.CreateResponse(HttpStatusCode.OK, broker.GetBrokerStatisticInfo());
             }
             return resp;
         }

@@ -1,5 +1,3 @@
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.dll
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.csprojResolveAssemblyReference.cache
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\PCITC.MES.MM.Tapper.Framework.pdb
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\Autofac.dll
@@ -13,4 +11,6 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\D
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\Dapper.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\log4net.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\bin\Debug\Newtonsoft.Json.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.dll
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Framework\obj\Debug\PCITC.MES.MM.Tapper.Framework.pdb

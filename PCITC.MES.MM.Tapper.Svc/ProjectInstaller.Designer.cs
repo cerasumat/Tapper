@@ -39,7 +39,6 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DelayedAutoStart = true;
             this.serviceInstaller1.Description = "Tapper Host Service";
             this.serviceInstaller1.DisplayName = "TapperHostSvc";
             this.serviceInstaller1.ServiceName = "TapperWebApiSvc";
