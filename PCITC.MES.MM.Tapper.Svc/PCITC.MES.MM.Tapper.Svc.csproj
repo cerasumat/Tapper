@@ -70,6 +70,7 @@
     <Compile Include="ApiSetting.cs" />
     <Compile Include="Controllers\InfoController.cs" />
     <Compile Include="Controllers\ForbiddenActions.cs" />
+    <Compile Include="Controllers\NotAllowedActions.cs" />
     <Compile Include="Controllers\NotifyController.cs" />
     <Compile Include="Controllers\TopicController.cs" />
     <Compile Include="Program.cs" />

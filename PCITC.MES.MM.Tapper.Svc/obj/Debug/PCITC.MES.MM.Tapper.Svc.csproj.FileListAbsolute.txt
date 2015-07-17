@@ -1,7 +1,4 @@
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\PCITC.MES.MM.Tapper.Svc.exe.config
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.csprojResolveAssemblyReference.cache
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.ProjectInstaller.resources
-F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.csproj.GenerateResource.Cache
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\Log4Net.config
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\PCITC.MES.MM.Tapper.Svc.exe
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\PCITC.MES.MM.Tapper.Svc.pdb
@@ -38,5 +35,8 @@ F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\Dapper.
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\Autofac.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\Microsoft.Owin.xml
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\bin\Debug\Microsoft.Owin.Security.xml
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.csprojResolveAssemblyReference.cache
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.ProjectInstaller.resources
+F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.csproj.GenerateResource.Cache
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.exe
 F:\ProjectKits2015\PCITC.MES.MM.Tapper\PCITC.MES.MM.Tapper.Svc\obj\Debug\PCITC.MES.MM.Tapper.Svc.pdb

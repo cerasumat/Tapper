@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web.Http;
 using Oracle.ManagedDataAccess.Client;
 using PCITC.MES.MM.Tapper.Engine.Entities;
@@ -48,13 +49,18 @@ namespace PCITC.MES.MM.Tapper.Svc.Controllers
                     connection.Close();
                 }
                 if (notifies.Any())
+                {
                     resp = Request.CreateResponse(HttpStatusCode.OK, notifies);
+                    resp.Content.Headers.Add("Content-Encoding", "gzip,deflate");
+                    //resp.Headers.Add("Transfer-Encoding", "chunked");
+                }
                 else
                     resp=new HttpResponseMessage(HttpStatusCode.NoContent)
                     {
                         ReasonPhrase = "no match notifies"
                     };
             }
+            
             return resp;
         }
 
@@ -89,21 +95,30 @@ namespace PCITC.MES.MM.Tapper.Svc.Controllers
         }
 
         [HttpPost]
-        public void PostNotifyEntity([FromBody]NotifyEntity value)
+        public HttpResponseMessage PostNotifyEntity([FromBody]NotifyEntity value)
         {
-            throw new HttpResponseException(ForbiddenActions.Post);
+            var resp = new HttpResponseMessage(HttpStatusCode.MethodNotAllowed);
+            resp.Content.Headers.Allow.Add("GET");
+            return resp;
+            //throw new HttpResponseException(ForbiddenActions.Post);
         }
 
         [HttpPut]
-        public void PutNotifyEntity([FromBody] NotifyEntity value)
+        public HttpResponseMessage PutNotifyEntity([FromBody] NotifyEntity value)
         {
-            throw new HttpResponseException(ForbiddenActions.Put);
+            var resp=new HttpResponseMessage(HttpStatusCode.MethodNotAllowed);
+            resp.Content.Headers.Allow.Add("GET");
+            return resp;
+            //throw new HttpResponseException(ForbiddenActions.Put);
         }
 
         [HttpDelete]
-        public void DeleteNotifyEntity(string id)
+        public HttpResponseMessage DeleteNotifyEntity(string id)
         {
-            throw new HttpResponseException(ForbiddenActions.Delete);
+            var resp = new HttpResponseMessage(HttpStatusCode.MethodNotAllowed);
+            resp.Content.Headers.Allow.Add("GET");
+            return resp;
+            //throw new HttpResponseException(ForbiddenActions.Delete);
         }
     }
 }

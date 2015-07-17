@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web.Http;
 using Oracle.ManagedDataAccess.Client;
 using PCITC.MES.MM.Tapper.Engine.Entities;
@@ -66,21 +67,24 @@ namespace PCITC.MES.MM.Tapper.Svc.Controllers
         }
 
         [HttpPost]
-        public void PostTopic([FromBody]TopicModel value)
+        public HttpResponseMessage PostTopic([FromBody]TopicModel value)
         {
-            throw new HttpResponseException(ForbiddenActions.Post);
+            return NotAllowedActions.Post("GET");
+            //throw new HttpResponseException(ForbiddenActions.Post);
         }
 
         [HttpPut]
-        public void PutTopic([FromBody] TopicModel value)
+        public HttpResponseMessage PutTopic([FromBody] TopicModel value)
         {
-            throw new HttpResponseException(ForbiddenActions.Put);
+            return NotAllowedActions.Put("GET");
+            //throw new HttpResponseException(ForbiddenActions.Put);
         }
 
         [HttpDelete]
-        public void DeleteTopic(int id)
+        public HttpResponseMessage DeleteTopic(int id)
         {
-            throw new HttpResponseException(ForbiddenActions.Delete);
+            return NotAllowedActions.Delete("GET");
+            //throw new HttpResponseException(ForbiddenActions.Delete);
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PCITC.MES.MM.Tapper.Engine.Entities;
@@ -57,6 +58,11 @@ namespace PCITC.MES.MM.Tapper.Console
                 var paramStr = string.Format("beg={0}&end={1}", begDate.ToString("yyyy-MM-dd"),
                     endDate.ToString("yyyy-MM-dd"));
                 var notifyUri = string.Format("{0}api/{1}/?{2}", _svcUri, "notify", paramStr);
+                httpClient.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("gzip"));
+                httpClient.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("deflate", 0.9));
+                //httpClient.DefaultRequestHeaders.TE.Add(new TransferCodingWithQualityHeaderValue("gzip"));
+                //httpClient.DefaultRequestHeaders.TE.Add(new TransferCodingWithQualityHeaderValue("deflate",0.9));
+                //httpClient.DefaultRequestHeaders.TransferEncoding.Add(new TransferCodingHeaderValue("chunked"));
                 var response = await httpClient.GetAsync(notifyUri);
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
