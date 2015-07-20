@@ -120,5 +120,17 @@ namespace PCITC.MES.MM.Tapper.Svc.Controllers
             return resp;
             //throw new HttpResponseException(ForbiddenActions.Delete);
         }
+
+        [HttpHead]
+        public HttpResponseMessage HeadNotify()
+        {
+            return new HttpResponseMessage(HttpStatusCode.NoContent);
+        }
+
+        [HttpOptions]
+        public HttpResponseMessage OptionsNotify()
+        {
+            return Request.CreateResponse(HttpStatusCode.OK, "GET");
+        }
     }
 }
